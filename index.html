@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+    }
+
+    .rootpage {
+      background-image: linear-gradient(90deg, #243746, #282828);
+      padding: 40px;
+      min-height: 100%;
+      color: #fff;
+    }
+
+    .rootpage__title {
+      margin-bottom: 20px;
+    }
+
+    .rootpage__label {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+
+    .rootpage__list {
+      margin: 0;
+      padding: 0;
+      list-style-position: inside;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .rootpage__item {}
+
+    .rootpage__link {
+      text-decoration: none;
+      color: inherit;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    .rootpage__link:visited {
+      color: #858585;
+      text-decoration: underline;
+    }
+
+    @media (any-hover: hover) {
+      .rootpage__link:hover {
+        text-decoration: underline;
+      }
+    }
+
+    @media(max-width: 767px) {
+      .rootpage {
+        padding: 15px;
+      }
+
+      .rootpage__title {
+        font-size: 26px;
+      }
+
+      .rootpage__list {
+        gap: 10px;
+      }
+
+      .rootpage__link {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="rootpage">
+    <div class="rootpage__body">
+      <h1 class="rootpage__title">Вёрстка «Agrosaloon»</h1>
+      <p class="rootpage__label">
+        Готовые страницы:
+      </p>
+      <ol class="rootpage__list">
+        <li class="rootpage__item"><a class="rootpage__link" href="home.html" target="_blank">Главная</a></li>
+        <li class="rootpage__item"><a class="rootpage__link" href="catalog.html" target="_blank">Каталог</a></li>
+        <li class="rootpage__item"><a class="rootpage__link" href="category.html" target="_blank">Категория</a></li>
+        <li class="rootpage__item"><a class="rootpage__link" href="product.html" target="_blank">Страница товара</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="contacts.html" target="_blank">Контакты</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="brands.html" target="_blank">Бренды</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="brands-page.html" target="_blank">Страница бренда</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="about.html" target="_blank">О компании</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="service.html" target="_blank">Сервис и
+            обслуживание</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="search-result.html" target="_blank">Поиск</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="spare-page.html" target="_blank">Запчасти</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="sign-in.html" target="_blank">Вход</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="order.html" target="_blank">Оформление заказа</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="delivery.html" target="_blank">Доставка</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="payments.html" target="_blank">Оплата</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="confirmation.html" target="_blank">Подтверждение</a>
+        <li class="rootpage__item"><a class="rootpage__link" href="thanks.html" target="_blank">Благодарность</a>
+        </li>
+      </ol>
+    </div>
+  </div>
+</body>
+
+</html>
